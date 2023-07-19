@@ -4,8 +4,8 @@
 
 .red{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 0px;
     background-color: red;
     z-index: 1;
     width: 90px;
@@ -16,7 +16,8 @@
  .green{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 20px;
+    bottom: 10px;
     background-color: green;
     z-index: 2;
     width: 70px;
@@ -27,11 +28,25 @@
     position: absolute;
     top: 20px;
     left: 20px;
+    bottom: 20px;
+
     background-color: blue;
     z-index: 3;
     width: 50px;
     height: 50px;
 }
+
+
+.div1 > .red {
+    position: relative !important;
+}
+
+.div2 > .red{
+    position: static !important;
+}
+
+
+
 
 
 
@@ -49,5 +64,17 @@
 }
 
 
-
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 20vh;
+    width: 40vw;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: larger;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.091);
+}
 
