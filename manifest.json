@@ -1,6 +1,6 @@
 {
-    "name": "remyn_website",
-    "short_name": "remyn_website",
+    "name": "Remyn",
+    "short_name": "Remyn",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#6741D9",
